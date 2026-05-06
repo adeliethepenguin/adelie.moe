@@ -1,4 +1,6 @@
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
 <head>
+<meta charset="utf-8" />
   <link rel="stylesheet" href="style.css">
   
   <style>
@@ -20,9 +22,17 @@
 
 			  
 				THIS WEBSITE IS UNDER CONSTRUCTION
-				<audio controls>
+				<audio  id="player">
 				<source src="/sounds/the website is under construction.wav" type="audio/wav">
+				
 				</audio>
+				<div>
+					<button onclick="document.getElementById('player').play()">Play</button> 
+					<button onclick="document.getElementById('player').pause()">Pause</button> 
+					<button onclick="document.getElementById('player').load()">Restart</button> 
+					<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+					<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+				</div>
 			</section>
 		  </div>
 		</header>

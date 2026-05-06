@@ -35,6 +35,31 @@ a:hover {
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 1750ms infinite;
 }
+button {
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
+button:hover {
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
+audio {
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
+audio:hover {
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
+}
 .btn {
 cursor: url("/cursors/penguinlink.cur"), pointer;
   display:inline-block;
