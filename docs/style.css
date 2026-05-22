@@ -47,6 +47,18 @@ button:hover {
   animation: cursor 1750ms infinite;
 }
 
+.game_widget_page{
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
+.widget_container {
+	cursor: url(cursors/penguinlinkframe1.png), pointer;
+  -webkit-animation: cursor 400ms infinite;
+  animation: cursor 1750ms infinite;
+}
+
 audio {
 	cursor: url(cursors/penguinlinkframe1.png), pointer;
   -webkit-animation: cursor 400ms infinite;
