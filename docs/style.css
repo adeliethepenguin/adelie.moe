@@ -47,13 +47,13 @@ button:hover {
   animation: cursor 1750ms infinite;
 }
 
-.game_widget_page{
+widget_container{
 	cursor: url(cursors/penguinlinkframe1.png), pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 1750ms infinite;
 }
 
-.widget_container {
+div.widget_container {
 	cursor: url(cursors/penguinlinkframe1.png), pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 1750ms infinite;
@@ -71,7 +71,12 @@ audio:hover {
   animation: cursor 1750ms infinite;
 }
 
+.center {
+  display: grid;
+  place-items: center; /* Shorthand for horizontal and vertical centering */
+  height: 100vh;
 }
+
 .btn {
 cursor: url("/cursors/penguinlink.cur"), pointer;
   display:inline-block;
