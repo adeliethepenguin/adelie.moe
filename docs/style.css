@@ -47,13 +47,13 @@ button:hover {
   animation: cursor 1750ms infinite;
 }
 
-widget_container{
+iframe{
 	cursor: url(cursors/penguinlinkframe1.png), pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 1750ms infinite;
 }
 
-div.widget_container {
+.itch_widget_wrapper button{
 	cursor: url(cursors/penguinlinkframe1.png), pointer;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 1750ms infinite;
@@ -73,7 +73,7 @@ audio:hover {
 
 .center {
   display: grid;
-  place-items: center; /* Shorthand for horizontal and vertical centering */
+  place-items: center; 
   height: 100vh;
 }
 
